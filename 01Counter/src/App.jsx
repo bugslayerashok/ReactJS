@@ -4,10 +4,12 @@ import './App.css'
 function App() {
   let [counter,setCounter] = useState(0);
   const addCounter = () => {
-    setCounter(++counter);
+    if (counter<20) 
+      setCounter(counter + 1);
   };
   const removeCounter = () => {
-    setCounter(--counter);
+    if(counter>0)
+    setCounter(counter - 1);
   };
   return (
     <>

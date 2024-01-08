@@ -1,4 +1,7 @@
-import ReactDOM from 'react-dom/client';
-import App from './App';
-ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
-
+import ReactDOM from "react-dom/client";
+import MemoEx from "./MemoEx";
+ReactDOM.createRoot(document.getElementById("root")).render(
+    <>
+        <MemoEx />
+    </>
+);

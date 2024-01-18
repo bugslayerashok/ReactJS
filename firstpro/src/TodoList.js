@@ -29,6 +29,12 @@ const TodoList = () => {
 
   return (
     <div>
+      <div>
+        <input type="text" value={newTodo} onChange={handleInputChange} placeholder="Enter a new todo" />
+        <button onClick={addTodo} disabled={!newTodo.trim()}>
+          Add Todo
+        </button>
+      </div>
       <h1>Todo List</h1>
       <ul>
         {todos.map((todo, index) => (
@@ -39,12 +45,6 @@ const TodoList = () => {
           </li>
         ))}
       </ul>
-      <div>
-        <input type="text" value={newTodo} onChange={handleInputChange} placeholder="Enter a new todo" />
-        <button onClick={addTodo} disabled={!newTodo.trim()}>
-          Add Todo
-        </button>
-      </div>
     </div>
   );
 };

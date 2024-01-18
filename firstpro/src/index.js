@@ -1,8 +1,7 @@
 import ReactDOM from "react-dom/client";
-import MemoEx from "./MemoEx";
-import TodoList from "./TodoList";
+import UseReducerEx from "./Hooks/UseReducerEx";
 ReactDOM.createRoot(document.getElementById("root")).render(
     <>
-        <TodoList/>
+        <UseReducerEx/>
     </>
 );

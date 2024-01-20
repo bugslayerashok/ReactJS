@@ -1,3 +1,3 @@
-This the First readme File
-Test
-To test Git OK...
+###Bascom Projects
+##React Devlopments
+    Hello Students This is the project folder i have provided for practice with me..😁
